@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-50 text-gray-800">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emails Sent - Nova Prime Admin</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="font-sans min-h-screen flex flex-col">
+
+  <header class="bg-white shadow p-4 flex items-center justify-between">
+    <h1 class="text-2xl font-bold text-green-700">Nova Prime Admin</h1>
+    <span class="text-sm text-gray-500">Emails Sent</span>
+  </header>
+
+  <main class="p-6 flex-grow max-w-7xl mx-auto w-full">
+    <h2 class="text-xl font-semibold mb-6 text-green-700">Emails Sent History</h2>
+
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white rounded-lg shadow border border-green-100">
+        <thead class="bg-green-100 text-green-800">
+          <tr>
+            <th class="text-left px-6 py-3 font-semibold text-sm">Category</th>
+            <th class="text-left px-6 py-3 font-semibold text-sm">Email Address</th>
+            <th class="text-left px-6 py-3 font-semibold text-sm">Date</th>
+            <th class="text-left px-6 py-3 font-semibold text-sm">Time</th>
+            <th class="text-left px-6 py-3 font-semibold text-sm">Status</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-green-100">
+          <!-- Example row -->
+          <tr>
+            <td class="px-6 py-4">Task Submission</td>
+            <td class="px-6 py-4 font-mono text-gray-700">jo****@example.com</td>
+            <td class="px-6 py-4">2025-06-05</td>
+            <td class="px-6 py-4">14:23:10</td>
+            <td class="px-6 py-4">
+              <span class="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-green-200 text-green-800">Sent</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="px-6 py-4">Account Suspension</td>
+            <td class="px-6 py-4 font-mono text-gray-700">ma****@domain.net</td>
+            <td class="px-6 py-4">2025-06-04</td>
+            <td class="px-6 py-4">09:12:45</td>
+            <td class="px-6 py-4">
+              <span class="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-red-200 text-red-800">Failed</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="px-6 py-4">Account Registration</td>
+            <td class="px-6 py-4 font-mono text-gray-700">sa****@email.com</td>
+            <td class="px-6 py-4">2025-06-03</td>
+            <td class="px-6 py-4">18:47:02</td>
+            <td class="px-6 py-4">
+              <span class="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-green-200 text-green-800">Sent</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="px-6 py-4">Support Ticket</td>
+            <td class="px-6 py-4 font-mono text-gray-700">li****@support.org</td>
+            <td class="px-6 py-4">2025-06-02</td>
+            <td class="px-6 py-4">12:00:33</td>
+            <td class="px-6 py-4">
+              <span class="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-yellow-200 text-yellow-800">Pending</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="px-6 py-4">Billing Email</td>
+            <td class="px-6 py-4 font-mono text-gray-700">pa****@billing.com</td>
+            <td class="px-6 py-4">2025-06-01</td>
+            <td class="px-6 py-4">08:45:55</td>
+            <td class="px-6 py-4">
+              <span class="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-green-200 text-green-800">Sent</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+</body>
+</html>
